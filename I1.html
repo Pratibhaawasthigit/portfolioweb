@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="vieport" content="width=device-width,initial-scale=1.0">
+        <title>Personal Portfolio Webpage</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/fb6bbb9d5e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class = "container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Service</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" >
+                <p>Web Designer/Coder</p>
+                <h1>Hi,I'm <span>Pratibha Awasthi</span><br>from India</h1>
+            </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                 <div class="about-col-1">
+                 <img src="image/pratibha.jpg.jpeg.jpeg">
+                 </div>
+                 <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Creating a personal webpage can be a great way to showcase your skills, 
+                        experiences, and interests to potential employers, collaborators,
+                        or just to share with the world. Here's a basic guide on how you can go 
+                        about creating a personal webpage for yourself:   </p>
+                        <div class="tab-titles">
+                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                         <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designig Web/App interfaces</li>
+                                <li><span>web Development</span><br>Web app Development</li>
+                                <li><span>Database Management</span><br>create secure Record</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="experience">
+                            <ul>
+                                <li><span>2024-Current</span><br>internship at Cipher Byte technology</li>
+                                <li><span>2023-24</span><br>Pursuing Bachelore degree</li>
+                                <li><span>2023-2022</span><br>internship at collage campus</li>
+                                <li><span>2022-2021</span><br>Learn scripting language</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019</span><br>10th at Govt. model H.S.S. singrauli.</li>
+                                <li><span>2021</span><br>complite 12th in PCM at Govt. Model H.S.S. singrauli.</li>
+                                <li><span>2024</span><br>BCA from TRS collage Rewa.</li>
+                            </ul>
+                        </div>
+                 </div>
+                </div>
+                </div>
+            </div>
+            <!----------------services--------------------------->
+            <div id="services">
+            <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design involves creating the visual elements and layout of a website, while coding involves translating these designs into a functional website using programming languages like HTML, CSS, and JavaScript. Typically, dedicated web developers translate the designs to code. Several design tools can also export code directly.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/Design</h2>
+                    <p>UX design focuses on the overall feel of a product or service and how to create a meaningful experience for users. UI design focuses on the visual components and interactive elements that contribute to a strong user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Database Design</h2>
+                    <p>the organization of data according to a database model using like  mysql,sql.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            </div>
+            </div>
+            <!----------------------Portfolio-website--------------------->
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                   
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="image/book1.png">
+                            <div class="layar">
+                            <h3>Natural Beauty</h3>
+                            <p>Nature provide  and enrgyNature is an intricate  of life, an endless symphony of beauty.</p>
+                          <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                        <div class="work">
+                            <img src="image/book2.png">
+                            <div class="layar">
+                            <h3>Internet & technology</h3>
+                            <p>The computer icons or system. Originating from the early days of graphical user element in modern computing. </p>
+                           <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                        <div class="work">
+                            <img src="image/surface-xSiQBSq-I0M-unsplash.jpg">
+                            <div class="layar">
+                            <h3>Social Meadia</h3>
+       .                     <p>Technology icons are , from hardware devices to software applications and abstract concepts.</p>
+                          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+            <!-----------------------contact------------------>
+            <div id="contact">
+                <div class="container">
+                <div clas="row">
+                    <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-mail-bulk"></i>pratibhaawasthiofficial@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>918839990923</p>    
+                    <div class="social-icon">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/PratibhaAw81730?t=SypQ1V-1fMSt0pquij30LA&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/whyyouheaven/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/pratibha-awasthi-315920257/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Pratibhaawasthigit"><i class="fa-brands fa-github"></i></a>
+                 </div>
+                <a href="image/pratibha_cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="Text" name="Name" placeholder="Your Name" required>
+                            <input type="Email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="Submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Pratibha. Made wtih<i class="fas fa-heart"></i></p>
+            </div>
+         </div>
+      <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+       
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+      <script>
+        var sidemeu =document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right ="-200px";
+        }
+      </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwAeQDuiFRpAYSEHvZXs4e2EXdcK2c0r9rbMZw7sNSlYIUyeaGLgKuTsoh547ZDgILA6Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                 msg.innerHTML="Message send successfully"
+                 setTimeout(function(){
+                    msg.innerHTML=""
+                 },5000)
+                 form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
